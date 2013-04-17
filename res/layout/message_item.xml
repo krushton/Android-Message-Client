@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+		<TextView
+		    android:id="@+id/nameText"
+		    android:layout_width="0dp"
+		    android:layout_weight="2"
+		    android:layout_height="wrap_content"
+		    android:textSize="22sp"
+		    android:textStyle="bold" >
+		</TextView>
+		<TextView
+		    android:id="@+id/commentText"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="5"
+		    android:textSize="22sp"
+		    android:textStyle="italic" >
+		</TextView>
+		<TextView
+		    android:id="@+id/hiddenId"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0"
+		    android:visible="false" >
+		</TextView>
+
+</LinearLayout> 
