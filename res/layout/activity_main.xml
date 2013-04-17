@@ -14,7 +14,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5"
+        android:layout_weight="4"
         android:background="@color/almostblack"
         android:orientation="vertical"
         android:padding="20dp" >
@@ -24,7 +24,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/newmessage"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -108,12 +108,12 @@
         android:layout_width="fill_parent"
         android:layout_height="3dp" >
     </FrameLayout>
-    <ListView
+    <ListView
         android:id="@+id/currentmessages"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginBottom="10dp"
-        android:layout_weight="8"
+        android:layout_weight="5"
         android:padding="10dp" >
 
     </ListView>

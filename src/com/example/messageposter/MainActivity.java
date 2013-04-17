@@ -124,7 +124,7 @@ public class MainActivity extends Activity {
 		@Override
 		protected String doInBackground(String... params) {
 
-			String url = "http://messagestore.herokuapp.com/messages";
+			String url = "http://krushton.pythonanywhere.com/messages";
 
 			HttpResponse response;
 			HttpClient httpclient = new DefaultHttpClient();
@@ -161,7 +161,7 @@ public class MainActivity extends Activity {
 		@Override
 		protected String doInBackground(String... params) {
 			String id = params[0];
-			String url = "http://messagestore.herokuapp.com/messages/" + id;
+			String url = "http://krushton.pythonanywhere.com/messages/" + id;
 			HttpResponse response;
 			HttpClient httpclient = new DefaultHttpClient();
 			try {
@@ -186,7 +186,7 @@ public class MainActivity extends Activity {
     private class LoadTask extends AsyncTask<Void, Void, JSONArray> {
     	
     	protected JSONArray doInBackground(Void...arg0) {			
-			String url = "http://messagestore.herokuapp.com/messages";
+			String url = "http://krushton.pythonanywhere.com/messages";
 			HttpResponse response;
 			HttpClient httpclient = new DefaultHttpClient();
 			String responseString = "";
