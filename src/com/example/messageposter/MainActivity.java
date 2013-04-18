@@ -198,7 +198,7 @@ public class MainActivity extends Activity {
 	                response.getEntity().writeTo(out);
 	                out.close();
 	                responseString = out.toString();
-	                Log.d("HI", responseString);
+
 	            } else{
 	                //Closes the connection.
 	                response.getEntity().getContent().close();
